@@ -6,7 +6,7 @@ import CSVUpload from "@/components/csv-upload";
 import DataTable from "@/components/data-table";
 import { useEffect, useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { createClient } from "../../../supabase/client";
+import { createClient } from "@/supabase/client";
 
 export default function Dashboard() {
   const [petStoreData, setPetStoreData] = useState<any[]>([]);
